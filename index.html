@@ -1,43 +1,55 @@
-body {
-    font-family: Arial;
-    background-color: #eeeeee;
-    text-align: center;
-    margin: 0;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
 
-header, footer {
-    background-color: #0b3d91;
-    color: white;
-    padding: 20px;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituto Nova Geração</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-main {
-    padding: 20px;
-}
+<body>
 
-img {
-    width: 90%;
-    max-width: 500px;
-    border-radius: 10px;
-}
+    <header>
+        <h1>🎓 Instituto Nova Geração</h1>
+        <p>Educação para transformar o futuro.</p>
+    </header>
 
-a {
-    display: block;
-    background-color: #0b3d91;
-    color: white;
-    text-decoration: none;
-    padding: 15px;
-    margin: 10px auto;
-    max-width: 300px;
-    border-radius: 5px;
-}
+    <main class="container">
 
-section {
-    margin-bottom: 30px;
-}
+        <section class="imagem">
+            <img src="img/faculdade.jpg" alt="Estudantes em uma instituição de ensino">
 
-@media (max-width: 600px) {
-    img {
-        width: 100%;
-    }
-}
+            <div class="texto-imagem">
+                <h2>Seu futuro começa aqui!</h2>
+                <p>Prepare-se para conquistar novas oportunidades.</p>
+            </div>
+        </section>
+
+        <section class="cursos">
+
+            <h2>Escolha sua modalidade</h2>
+
+            <a href="#graduacao" class="botao">
+                Graduação
+            </a>
+
+            <a href="#pos" class="botao">
+                Pós-graduação
+            </a>
+
+            <a href="#tecnico" class="botao">
+                Ensino Técnico
+            </a>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Instituto Nova Geração © 2026</p>
+    </footer>
+
+</body>
+
+</html>
